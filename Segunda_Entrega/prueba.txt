@@ -1,0 +1,49 @@
+DIM [total, contador, aux] AS [real, integer, integer]
+DIM [c, d, alfa] AS [real, integer, real]
+DIM [total3] AS [integer]
+*/DIM [total3] AS [real] Esta variable ya fue creada/*
+
+long(alfa, d, alfa, c, d, c)
+
+contador := 50
+aux := contador
+total := (23 + contador) * .5 + 33.
+*/contador := 507483647 /* 
+IF (aux < 50)
+    DISPLAY "GET total"
+    */DISPLAY "GET total GET total GET total GET total GET total " El String es mas largo de 30 caracteres/*
+    DISPLAY "123456789012345678901234567890" */ 30 caracteres /*
+ENDIF
+*/ COMENTARIO Valido "[()]" 2021 := , . = +-/* < <= > >= != ==  /*
+
+IF (aux > 50 OR 5 == 3)
+    if (total != contador)
+        DISPLAY "0000"
+        aux := 3
+        
+        if (NOT total > contador)
+            total := contador * 2.5
+        else
+            total := contador * 5
+        endif
+    ENDIF
+endif
+
+while (contador < 100 AND 3 == 3)
+do
+    contador := contador + 1
+endwhile
+
+*/GET base Esta variable nunca fue creada/*
+*/DISPLAY base/*
+
+while aux in (3 + 3, (15-8)*3)
+do
+    if(total != contador)
+        DISPLAY contador
+    endif
+endwhile
+
+*/long(a,f,g)/*
+DIM [g, f, a] AS [integer, real, integer]
+long(a,f,g)
