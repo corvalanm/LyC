@@ -1,69 +1,69 @@
 Nro Contenido [H_izq_Contenido H_izq_nro] [H_der_Contenido H_der_nro]
 
-1 DECLARACION [NULL] [NULL]
-2 DECLARACION [NULL] [NULL]
+1 DECLARACION
+2 DECLARACION
 3 BLOQUE [DECLARACION 1] [DECLARACION 2]
-4 DECLARACION [NULL] [NULL]
+4 DECLARACION
 5 BLOQUE [BLOQUE 3] [DECLARACION 4]
-6 6 [NULL] [NULL]
+6 6
 7 BLOQUE [BLOQUE 5] [6 6]
-8 50 [NULL] [NULL]
-9 contador [NULL] [NULL]
+8 50
+9 contador
 10 := [contador 9] [50 8]
 11 BLOQUE [BLOQUE 7] [:= 10]
-12 contador [NULL] [NULL]
-13 aux [NULL] [NULL]
+12 contador
+13 aux
 14 := [aux 13] [contador 12]
 15 BLOQUE [BLOQUE 11] [:= 14]
-16 23 [NULL] [NULL]
-17 contador [NULL] [NULL]
+16 23
+17 contador
 18 + [23 16] [contador 17]
-19 0.500000 [NULL] [NULL]
+19 0.500000
 20 * [+ 18] [0.500000 19]
-21 33.000000 [NULL] [NULL]
+21 33.000000
 22 + [* 20] [33.000000 21]
-23 total [NULL] [NULL]
+23 total
 24 := [total 23] [+ 22]
 25 BLOQUE [BLOQUE 15] [:= 24]
-26 aux [NULL] [NULL]
-27 50 [NULL] [NULL]
+26 aux
+27 50
 28 < [aux 26] [50 27]
-29 GET total [NULL] [NULL]
-30 DISPLAY [GET total 29] [NULL]
-31 123456789012345678901234567890 [NULL] [NULL]
-32 DISPLAY [123456789012345678901234567890 31] [NULL]
+29 GET total
+30 DISPLAY [GET total 29]
+31 123456789012345678901234567890
+32 DISPLAY [123456789012345678901234567890 31]
 33 BLOQUE [DISPLAY 30] [DISPLAY 32]
 34 IF [< 28] [BLOQUE 33]
 35 BLOQUE [BLOQUE 25] [IF 34]
-36 aux [NULL] [NULL]
-37 50 [NULL] [NULL]
+36 aux
+37 50
 38 > [aux 36] [50 37]
-39 5 [NULL] [NULL]
-40 3 [NULL] [NULL]
+39 5
+40 3
 41 == [3 39] [3 40]
 42 OR [> 38] [== 41]
-43 total [NULL] [NULL]
-44 contador [NULL] [NULL]
+43 total
+44 contador
 45 != [total 43] [contador 44]
-46 0000 [NULL] [NULL]
-47 DISPLAY [0000 46] [NULL]
-48 3 [NULL] [NULL]
-49 aux [NULL] [NULL]
+46 0000
+47 DISPLAY [0000 46]
+48 3
+49 aux
 50 := [aux 49] [3 48]
 51 BLOQUE [DISPLAY 47] [:= 50]
-52 total [NULL] [NULL]
-53 contador [NULL] [NULL]
+52 total
+53 contador
 54 > [total 52] [contador 53]
-55 NOT [> 54] [NULL]
-56 contador [NULL] [NULL]
-57 2.500000 [NULL] [NULL]
+55 NOT [> 54]
+56 contador
+57 2.500000
 58 * [contador 56] [2.500000 57]
-59 total [NULL] [NULL]
+59 total
 60 := [total 59] [* 58]
-61 contador [NULL] [NULL]
-62 5 [NULL] [NULL]
+61 contador
+62 5
 63 * [contador 61] [5 62]
-64 total [NULL] [NULL]
+64 total
 65 := [total 64] [* 63]
 66 CUERPO [:= 60] [:= 65]
 67 IF [NOT 55] [CUERPO 66]
@@ -71,58 +71,58 @@ Nro Contenido [H_izq_Contenido H_izq_nro] [H_der_Contenido H_der_nro]
 69 IF [!= 45] [BLOQUE 68]
 70 IF [OR 42] [IF 69]
 71 BLOQUE [BLOQUE 35] [IF 70]
-72 contador [NULL] [NULL]
-73 100 [NULL] [NULL]
+72 contador
+73 100
 74 < [contador 72] [100 73]
-75 3 [NULL] [NULL]
-76 3 [NULL] [NULL]
+75 3
+76 3
 77 == [3 75] [3 76]
 78 AND [< 74] [== 77]
-79 contador [NULL] [NULL]
-80 1 [NULL] [NULL]
+79 contador
+80 1
 81 + [contador 79] [1 80]
-82 contador [NULL] [NULL]
+82 contador
 83 := [contador 82] [+ 81]
 84 WHILE [AND 78] [:= 83]
 85 BLOQUE [BLOQUE 71] [WHILE 84]
-86 3 [NULL] [NULL]
-87 3 [NULL] [NULL]
+86 3
+87 3
 88 + [3 86] [3 87]
-89 1 [NULL] [NULL]
-90 @ejec_while_esp [NULL] [NULL]
+89 1
+90 @ejec_while_esp
 91 := [@ejec_while_esp 90] [1 89]
-92 aux [NULL] [NULL]
+92 aux
 93 == [aux 92] [+ 88]
 94 IF [== 93] [:= 91]
-95 0 [NULL] [NULL]
-96 @ejec_while_esp [NULL] [NULL]
+95 0
+96 @ejec_while_esp
 97 := [@ejec_while_esp 96] [0 95]
 98 BLOQUE [:= 97] [IF 94]
-99 15 [NULL] [NULL]
-100 8 [NULL] [NULL]
+99 15
+100 8
 101 - [8 99] [8 100]
-102 3 [NULL] [NULL]
+102 3
 103 * [- 101] [3 102]
-104 1 [NULL] [NULL]
-105 @ejec_while_esp [NULL] [NULL]
+104 1
+105 @ejec_while_esp
 106 := [@ejec_while_esp 105] [1 104]
-107 aux [NULL] [NULL]
+107 aux
 108 == [aux 107] [* 103]
 109 IF [== 108] [:= 106]
 110 LISTA_EXP [BLOQUE 98] [IF 109]
-111 total [NULL] [NULL]
-112 contador [NULL] [NULL]
+111 total
+112 contador
 113 != [total 111] [contador 112]
-114 contador [NULL] [NULL]
-115 DISPLAY [contador 114] [NULL]
+114 contador
+115 DISPLAY [contador 114]
 116 IF [!= 113] [DISPLAY 115]
-117 @ejec_while_esp [NULL] [NULL]
-118 1 [NULL] [NULL]
+117 @ejec_while_esp
+118 1
 119 == [1 118] [@ejec_while_esp 117]
-120 IF [== 119] [IF 116]
-121 WHILE_ESP [LISTA_EXP 110] [IF 120]
+120 COND_W_ESP [LISTA_EXP 110] [== 119]
+121 WHILE_ESP [COND_W_ESP 120] [IF 116]
 122 BLOQUE [BLOQUE 85] [WHILE 84]
-123 DECLARACION [NULL] [NULL]
+123 DECLARACION
 124 BLOQUE [BLOQUE 122] [DECLARACION 123]
-125 3 [NULL] [NULL]
+125 3
 126 BLOQUE [BLOQUE 124] [3 125]
