@@ -190,8 +190,8 @@ iteracion: WHILE PAR_ABR condicion PAR_CIE DO programa ENDWHILE {
     | WHILE ID {strcpy(_id_while_especial, $2);} IN PAR_ABR lista_exp PAR_CIE DO programa ENDWHILE {  
         printf("\nRegla 8.2: Ciclo Especial");
         if(buscar_simbolo($2, VARIABLE_NUM) == -1){yyerror("Variable desconocida.");YYABORT;};
-
-        while_esp_ptr = crearNodo("WHILE_ESP", lista_exp_ptr, crearNodo("IF", crearNodo("==", crearHoja("1"), crearHoja("@ejec_while_esp")), pila_programa[--pila_programa_tope]) );
+        
+        while_esp_ptr = crearNodo("WHILE_ESP", crearNodo("COND_W_ESP", lista_exp_ptr, crearNodo("==", crearHoja("1"), crearHoja("@ejec_while_esp"))), pila_programa[--pila_programa_tope] );
     }
 
 /*Regla n9*/
