@@ -1,0 +1,10 @@
+del ts.txt
+del intermedia.txt
+del lex.yy.c
+del y.output
+del y.tab.c
+del y.tab.h
+del Final.asm
+del Grupo11.exe
+del Final.obj
+del Final.exe

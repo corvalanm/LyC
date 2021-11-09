@@ -1,0 +1,59 @@
+DIM [totalR, contadorI, auxI] AS [real, integer, integer]
+DIM [charlieR, deltaI, alfaR] AS [real, integer, real]
+DIM [temp] AS [integer]
+*/DIM [temp] AS [real] Esta variable ya fue creada/*
+
+DIM [leeR] AS [real]
+GET leeR
+DISPLAY leeR
+
+deltaI := long(alfaR, deltaI, alfaR, charlieR, deltaI, charlieR)
+contadorI := 1 - 50
+
+auxI := contadorI + 75
+totalR := (23 + contadorI) * .5 + 33.
+*/contadorI := 507483647 /* 
+IF (charlieR < 50.02)
+    DISPLAY "TRUE"
+    */DISPLAY "GET totalR GET totalR GET totalR GET totalR GET totalR " El String es mas largo de 30 caracteres/*
+    DISPLAY "123456789012345678901234567890" */ 30 caracteres /*
+ENDIF
+*/ COMENTARIO Valido "[()]" 2021 := , . = +-/* < <= > >= != ==  /*
+
+IF (auxI > 50 OR 3 == 3) */IF (5.25 == 3) Tipo de datos incompatibles/*
+    if (deltaI != contadorI)
+        auxI := 327
+        
+        if (NOT totalR > charlieR)
+            totalR := contadorI * 2.5
+        else
+            */totalR := contadorI * 5  No se puede realizar la asignacion porque son de diferentes tipos de datos/*
+            totalR := contadorI * 5.
+        endif
+    ENDIF
+endif
+
+while (contadorI < 100 AND 51 == 51)
+do
+    contadorI := contadorI + 1
+endwhile
+
+DIM [gammaI, kappaR, sigmaI, baseR] AS [integer, real, integer, real]
+
+while auxI in (3 + 3, (15-8)*3)
+do
+    if(totalR != kappaR)
+        DISPLAY totalR
+    endif
+endwhile
+
+kappaR := 1.25
+
+gammaI := long(auxI,sigmaI,kappaR)
+DISPLAY contadorI
+DISPLAY totalR
+DISPLAY auxI
+DISPLAY gammaI
+DISPLAY kappaR
+DISPLAY sigmaI
+
